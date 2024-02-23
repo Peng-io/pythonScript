@@ -1,0 +1,11 @@
+@url = http://127.0.0.1:8080
+
+### 
+POST  {{ url }}/s1/hello
+Content-Type: : application/json
+
+{
+    "user":"地瓜"
+}
+
+###
