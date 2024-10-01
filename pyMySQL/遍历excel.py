@@ -1,7 +1,6 @@
 from openpyxl import load_workbook
 import os
 
-
 def print_data() -> None:
     # rows: int = sheet.max_row  # 获取行数
     # column: int = sheet.max_column  # 获取列数

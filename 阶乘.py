@@ -5,4 +5,4 @@ def jc(num: int) -> int:
         return num * jc(num - 1)
 
 
-print(jc(100))
+print(jc(3))

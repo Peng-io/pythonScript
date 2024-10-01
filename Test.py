@@ -1,2 +1,5 @@
-choice = int(input("选择要使用的打印机 (输入对应的序号): ")) - 1
-print(choice)
+a: int = 1
+b: str = "2"
+print(f"数字是：{a}，字符是：{b}", end="\n")
+
+print(123 % 10)

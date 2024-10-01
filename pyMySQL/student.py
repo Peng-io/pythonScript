@@ -1,7 +1,5 @@
 import pymysql
 
-
-
 class Studnet:
     def __init__(self) -> tuple:
         # 连接数据库
@@ -15,7 +13,6 @@ class Studnet:
             )
     # 创建数据库的游标
         self.cursor = self.comm.cursor()
-
 
 
 def insert():
