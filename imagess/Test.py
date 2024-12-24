@@ -1,6 +1,7 @@
-from PIL import Image
 import os
 import re
+
+from PIL import Image
 
 # 扫描当前文件夹下的所有jpg和png的图片并把像素全部改成640*427
 

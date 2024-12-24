@@ -1,6 +1,7 @@
+import os
+
 import pymysql
 from openpyxl import load_workbook
-import os
 
 workbook = load_workbook(os.getcwd() + "./test.xlsx")
 sheet = workbook.active
@@ -38,4 +39,5 @@ def add_data():
     workbook.save("test.xlsx")
 
 
-add_data()
+if __name__ == "__main__":
+    add_data()

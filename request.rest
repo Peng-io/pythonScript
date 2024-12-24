@@ -5,7 +5,5 @@ POST  {{ url }}/s1/hello
 Content-Type: : application/json
 
 {
-    "user":"地瓜"
+    "user":"小明"
 }
-
-###

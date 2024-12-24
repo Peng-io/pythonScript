@@ -1,14 +1,15 @@
 def PrintHello(func):
     def _():
         func()
-        print(2)
+        print("装饰器")
 
     return _
 
 
 @PrintHello
 def hello() -> None:
-    print(1)
+    print("原函数")
 
 
-hello()
+if __name__ == '__main__':
+    hello()

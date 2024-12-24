@@ -1,5 +1,7 @@
-from openpyxl import load_workbook
 import os
+
+from openpyxl import load_workbook
+
 
 def print_data() -> None:
     # rows: int = sheet.max_row  # 获取行数
@@ -30,7 +32,8 @@ def print_cols():
             print(j.value)
 
 
-workbook = load_workbook(os.getcwd() + "./test.xlsx")
-sheet = workbook.active
+if __name__ == "__main__":
+    workbook = load_workbook(os.getcwd() + "./test.xlsx")
+    sheet = workbook.active
 
-print_cols()
+    print_cols()
